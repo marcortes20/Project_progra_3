@@ -18,6 +18,9 @@ body {
   margin-top: 60px;
   padding: 10px;
   flex: 1;
+  padding-left: 0px;
+  padding-right: 0px;
+  
 }
 
 
@@ -111,14 +114,7 @@ gap: 30px;
   flex-wrap: wrap;
 }
 
-#Tittle{
-  text-align: center;
-  justify-content: center;
-}
-.content_four_picture{
-  display: flex;
-  text-align: start;
-}
+
 
 .picture_four{
   width: 350px;
@@ -129,14 +125,6 @@ gap: 30px;
   display: flex;
   flex-direction: row;
   text-align: start;
-}
-.Icons{
-  display: flex;
-  flex-direction: column;
-  flex: 60px;
-  gap: 20px;
-  padding-top: 35px;
-  padding-left: 35PX;
 }
 
 .Texto {
@@ -169,4 +157,18 @@ gap: 30px;
   width: 70px;
   height: 70px;
   border-radius: 50px;
+}
+
+.service_one, .service_two, .service_three, .service_four{
+
+  display: flex;
+  gap: 40px;
+}
+
+.services_content{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  margin-left: 100px;
 }
