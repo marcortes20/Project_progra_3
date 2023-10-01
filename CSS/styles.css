@@ -67,10 +67,6 @@ gap: 30px;
 
 }
 
-
-
-
-
 .footer {
   padding-top: 20px;
   background-color: gray;
@@ -79,7 +75,6 @@ gap: 30px;
   gap: 20%;
   justify-content: center;
 }
-
 
 .content_one{
   
@@ -104,7 +99,74 @@ gap: 30px;
   justify-content: center;
 }
 .picture_one{
-
   width: 450px;
   border-radius: 5px;
+}
+
+.content-four{
+  background-color: #088A85;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#Tittle{
+  text-align: center;
+  justify-content: center;
+}
+.content_four_picture{
+  display: flex;
+  text-align: start;
+}
+
+.picture_four{
+  width: 350px;
+  border-radius: 20px;
+  padding: 10px;
+}
+#ICT{
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+}
+.Icons{
+  display: flex;
+  flex-direction: column;
+  flex: 60px;
+  gap: 20px;
+  padding-top: 35px;
+  padding-left: 35PX;
+}
+
+.Texto {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 50px;
+
+}
+
+#ico1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.ico2{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.ico3{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.ico4{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
 }
