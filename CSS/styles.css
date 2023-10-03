@@ -19,6 +19,9 @@ body {
   margin-top: 60px;
   padding: 10px;
   flex: 1;
+  padding-left: 0px;
+  padding-right: 0px;
+  
 }
 
 
@@ -68,10 +71,6 @@ gap: 30px;
 
 }
 
-
-
-
-
 .footer {
   padding-top: 20px;
   background-color: gray;
@@ -80,7 +79,6 @@ gap: 30px;
   gap: 20%;
   justify-content: center;
 }
-
 
 .content_one{
   
@@ -105,9 +103,74 @@ gap: 30px;
   justify-content: center;
 }
 .picture_one{
-
   width: 450px;
   border-radius: 5px;
+}
+
+.content-four{
+  background-color: #088A85;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.picture_four{
+  width: 350px;
+  border-radius: 20px;
+  padding: 10px;
+}
+#ICT{
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+}
+
+.Texto {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 50px;
+
+}
+
+#ico1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.ico2{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.ico3{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.ico4{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.service_one, .service_two, .service_three, .service_four{
+
+  display: flex;
+  gap: 40px;
+}
+
+.services_content{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  margin-left: 100px;
 }
 
 
