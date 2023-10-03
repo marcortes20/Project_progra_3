@@ -4,8 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/styles.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="CSS/main_styles.css">
+  <link rel="stylesheet" href="CSS/header_styles.css">
+  <link rel="stylesheet" href="CSS/footer_styles.css">
+
+  <title>My landing page</title>
 </head>
 
 <body>
@@ -74,28 +77,30 @@
 
         <h1 style="font-size: 40px; color:white"><b>NEW COLLECTION</b></h1>
 
-<div id="content-product">
+        <div id="content-product">
 
-  <div id="content-discount"><p style="font-size: 25px;">20%</p></div>
-  <img id="picture-sweater" src="Assets/sueter.jpeg" alt="">
-  <div id="content-information-picture-one">
-    <div id="text-1">
-      <p><b >Women's sweater</b><br> $30.00 <br><b>Size:S, M</b> </p>
-    </div>
-    <div id="content-more" style="font-size: 25px;"><b>+</b></div>
-  </div>
-  
-</div>
+          <div id="content-discount">
+            <p style="font-size: 25px;">20%</p>
+          </div>
+          <img id="picture-sweater" src="Assets/sueter.jpeg" alt="">
+          <div id="content-information-picture-one">
+            <div id="text-1">
+              <p><b>Women's sweater</b><br> $30.00 <br><b>Size:S, M</b> </p>
+            </div>
+            <div id="content-more" style="font-size: 25px;"><b>+</b></div>
+          </div>
 
-<div id="buttons">
-  <button id="button_one" type="button"></button>
-  <button id="button_one" type="button"></button>
-  <button id="button_one" type="button"></button>
-  <button id="button_one" type="button"></button>
-</div>
+        </div>
+
+        <div class="clothes-buttons" id="buttons">
+          <button id="button_one" type="button"></button>
+          <button id="button_two" type="button"></button>
+          <button id="button_three" type="button"></button>
+          <button id="button_four" type="button"></button>
+        </div>
 
       </div>
-      
+
       <!-- Agrega aquí tu contenido principal -->
     </section>
 
@@ -105,71 +110,73 @@
       <!-- Agrega aquí tu contenido principal -->
     </section>
 
+
     <section class="content-four">
-      <div id="Tittle">
-        <h1>¿What are our services?</h1>
+      <div class="content_four_picture">
+        <img class="picture_four" img src="Assets/pic four.jpg" alt="">
       </div>
 
-      <div id="ICT">
+      <div class="services_content">
 
-        <div class="content_four_picture">
-          <img class="picture_four" img src="Assets/pic four.jpg" alt="">
-        </div>
+        <h1>¿What are our services?</h1>
 
-        <div class="services_content">
+        <div class="service_one">
 
-          <div class="service_one">
-            <div class="img_service">
-              <img id="ico1" img src="Assets/cardbuy.jpg" alt="">
-            </div>
-
-            <div>
-              <h3>Buy Online</h3>
-              <p>Where customers can search, select and purchase apparel and accessories from the convenience of their
-                electronic devices.</p>
-            </div>
-
+          <div class="img_service">
+            <img id="ico1" img src="Assets/cardbuy.jpg" alt="">
           </div>
 
-          <div class="service_two">
-            <div class="img_service">
-              <img class="ico2" src="Assets/truck.jpg" alt="">
-            </div>
-
-            <div>
-              <h3>Send by Correos CR</h3>
-              <p>Home deliveries are made through our express service where your orders will arrive at the door of your
-                house.</p>
-            </div>
-
-          </div>
-
-          <div class="service_three">
-
-            <div class="img_service">
-              <img class="ico3" src="Assets/buyself.png" alt="">
-            </div>
-
-            <div>
-              <h3>Personality your order</h3>
-              <p>We have product customization where you can design your clothing items.</p>
-            </div>
-          </div>
-
-          <div class="service_four">
-            <div class="img_service">
-              <img class="ico4" src="Assets/buynow.png" alt="">
-            </div>
-
-            <div>
-              <h3>Wholesale purchase</h3>
-              <p>We offer to our clients wholesale purchase with a take off in selects products.</p>
-
-            </div>
-
+          <div>
+            <h3>Buy Online</h3>
+            <p>Where customers can search, select and purchase apparel and accessories from the convenience of their
+              electronic devices.</p>
           </div>
 
         </div>
+
+        <div class="service_two">
+
+          <div class="img_service">
+            <img id="ico2" src="Assets/truck.jpg" alt="">
+          </div>
+
+          <div>
+            <h3>Send by Correos CR</h3>
+            <p>Home deliveries are made through our express service where your orders will arrive at the door of your
+              house.</p>
+          </div>
+
+        </div>
+
+        <div class="service_three">
+
+          <div class="img_service">
+            <img id="ico3" src="Assets/buyself.png" alt="">
+          </div>
+
+          <div>
+            <h3>Personality your order</h3>
+            <p>We have product customization where you can design your clothing items.</p>
+          </div>
+
+        </div>
+
+        <div class="service_four">
+
+          <div class="img_service">
+            <img id="ico4" src="Assets/buynow.png" alt="">
+          </div>
+
+          <div>
+
+            <h3>Wholesale purchase</h3>
+            <p>We offer to our clients wholesale purchase with a take off in selects products.</p>
+
+          </div>
+
+        </div>
+
+      </div>
 
     </section>
 
@@ -177,32 +184,40 @@
 
   <footer class="footer">
 
-    <div>
-      <img class="footer-logo" src="" alt="Gucci Logo">
+    <div class="footer-info">
+      <h3>Company</h3>
+      <p>About</p>
+      <p>Carrers</p>
+      <p>Press</p>
+      <p>Blog</p>
+      <p>Meet our Instructor</p>
     </div>
 
     <div class="footer-info">
-      <h3>Store Information</h3>
-      <p>Address: </p>
-      <p>Phone: </p>
-      <p>Email: </p>
+      <h3>Offers</h3>
+      <p>Buy a Gift</p>
+      <p>Reedem a Gift</p>
+      <p>Groups & Teams</p>
+      <p>Calm Health</p>
     </div>
 
-    <div class="footer-links">
-      <h3>Quick Links</h3>
-      <ul>
-        <li><a href="#">Catalog</a></li>
-        <li><a href="#">New Arrivals</a></li>
-        <li><a href="#">Special Offers</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
+    <div class="footer-info">
+      <h3>Help</h3>
+      <p>FAQ</p>
+      <p>Contact Us</p>
+      <p>Terms</p>
+      <p>Privacy</p>
+      <p>Cookies</p>
     </div>
 
-
-
-
+    <div class="logos">
+      <img class="instagram-logo" src="Assets/instagram.svg" alt="Gucci Logo">
+      <img class="facebook-logo" src="Assets/brand-facebook-filled.svg" alt="Gucci Logo">
+      <img class="twiter-logo" src="Assets/brand-twitter-filled.svg" alt="Gucci Logo">
+    </div>
 
   </footer>
+
 </body>
 
 </html>
