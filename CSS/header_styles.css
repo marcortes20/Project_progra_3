@@ -5,6 +5,85 @@
 }
 
 
+/* Estilos para el fondo oscuro detrás de la ventana emergente */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  overflow: auto;
+}
+
+/* Estilos para el contenido de la ventana emergente */
+.modal-content {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Estilos para el botón de cierre (la "x") */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Estilos para el formulario */
+#emailForm {
+  text-align: left;
+}
+
+#emailForm label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#emailForm input[type="email"],
+#emailForm input[type="text"],
+#emailForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#emailForm button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#emailForm button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+.close {
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Añade estilos adicionales según tus preferencias */
+
 .navigation-menu {
   padding-left: 10px;
   padding-right: 20px;
@@ -23,9 +102,9 @@
 
 
 
-.nav-options{
-display: flex;
-gap: 30px;
+.nav-options {
+  display: flex;
+  gap: 30px;
 }
 
 .first-menu-options {
@@ -35,12 +114,13 @@ gap: 30px;
 }
 
 .first-menu-options a {
-  text-decoration: none; 
-  color: #050505; 
-  transition: color 0.2s; 
+  text-decoration: none;
+  color: #050505;
+  transition: color 0.2s;
 }
+
 .first-menu-options a:hover {
-  color: #0056b3; 
+  color: #0056b3;
 }
 
 .second-menu-options {

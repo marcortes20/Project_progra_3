@@ -11,10 +11,10 @@ body {
 }
 
 .content_one {
+  background:linear-gradient(90deg, #b5b3b3 0%, #ffffff 100%);
   display: flex;
   padding: 20px 100px;
   gap: 10%;
-  margin-bottom: 50px;
 }
 
 
@@ -39,7 +39,8 @@ body {
 
 
 .content-two {
-  background-color: rgba(0, 0, 0, 0.773);
+  padding: 20px;
+  background-color: #E3E2C3;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -78,7 +79,10 @@ body {
 
 }
 
-#picture-sweater {
+#picture-content_two {
+
+  transition: opacity 0.5s;
+
   width: 400px;
   height: 400px;
 }
@@ -122,7 +126,48 @@ body {
   height: 50px;
 }
 
+.clothes-buttons button:hover{
+  background-color: #050505;
+}
 
+
+.container {
+  display: flex;
+  margin: auto;
+  padding: 100px;
+  width: 60%;
+  height: 600px;
+
+
+}
+
+
+.container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .7s ease;
+
+
+}
+
+.container img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(100%);
+
+
+}
+
+
+h2 {
+  text-align: center;
+}
 
 
 
@@ -139,15 +184,18 @@ body {
 
 
 .content-four {
-  background-color: #088A85;
+  background-color: #15596A;
   display: flex;
   flex-direction: row;
   text-align: start;
 
 }
 
+.content_four_picture {
+  margin-left: 20px;
+}
 
-.picture_four {
+#picture_content_four {
   width: 350px;
   border-radius: 20px;
   padding: 10px;
@@ -188,12 +236,11 @@ body {
   border-radius: 50px;
 }
 
-.service_one,
-.service_two,
-.service_three,
-.service_four {
+.service_1,
+.service_2,
+.service_3,
+.service_4 {
 
   display: flex;
   gap: 40px;
 }
-

@@ -1,30 +1,28 @@
-
-
 .footer {
   margin: 0;
   padding: 0;
   padding: 50px;
-  background-color: gray;
+  background-color:rgb(128, 128, 128) ;
   display: flex;
   justify-content: space-around;
 }
 
-.footer-info h3{
+.footer-info h3 {
   color: white;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
-.footer-info p{
+.footer-info p {
   color: rgb(183, 178, 178);
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
-.logos{
+.logos {
   display: flex;
-flex-direction: row;
-gap: 15px;
+  flex-direction: row;
+  gap: 15px;
 }
 
-.logos img{
-height: 24px;
+.logos img {
+  height: 24px;
 }
