@@ -15,26 +15,47 @@
 
   <header class="header">
 
+    <div id="emailModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeEmailModal">&times;</span>
+        <h2>Enviar Correo</h2>
+        <form id="emailForm">
+          <label for="to">Para:</label>
+          <input type="email" id="to" name="to" required><br>
+
+          <label for="subject">Asunto:</label>
+          <input type="text" id="subject" name="subject" required><br>
+
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" required></textarea><br>
+
+          <button type="submit">Enviar</button>
+
+        </form>
+      </div>
+    </div>
+
+
     <nav class="navigation-menu">
 
       <div class="header-title">
-        <h1 style="font-size: 40px;"><b>LOVE</b></h1>
+        <h1 id="company_name" style="font-size: 40px;"><b></b></h1>
       </div>
 
       <div class="nav-options">
 
         <ul class="first-menu-options">
-          <li><a href="#">Products</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a id="menu_option_1" href="#start"></a></li>
+          <li><a id="menu_option_2" href="#products"></a></li>
+          <li><a id="menu_option_3" href="#services"></a></li>
+          <li><a id="menu_option_4" href="#"></a></li>
+          </li>
         </ul>
 
         <ul class="second-menu-options">
-          <li><img src="Assets/user.svg" alt=""></li>
-          <li><img src="Assets/building-store.svg" alt=""></li>
-          <li><img src="Assets/search.svg" alt=""></li>
-          <li><button>Buy now</button></li>
+          <li><img id="icon_header_1" src="" alt=""></li>
+          <li><img id="icon_header_2" src="" alt=""></li>
+          <li><img id="icon_header_3" src="" alt=""></li>
 
         </ul>
 
@@ -46,46 +67,41 @@
 
   <main class="main">
 
-    <section class="content_one">
+    <section class="content_one" id="start">
 
       <div class="content_one_information">
 
-        <h2>Love-Where-Love meets fashion</h2>
-        <p>Welcome to Love, your premier destination for luxury fashion. At Love, we offer a wide selection of high-end
-          clothing and accessories to elevate your style. Our store is a reflection of timeless elegance and
-          sophistication, where you can discover the latest trends and classic pieces that define the essence of luxury
-          fashion. Whether you're looking for iconic Love handbags, exquisite apparel, or statement accessories, our
-          dedicated team is here to provide you with an unparalleled shopping experience. Step into the world of Love
-          and indulge in the finest craftsmanship and design. Thank you for choosing Love, where fashion meets
-          excellences.</p>
+        <h2 id="title_secction_1"></h2>
+        <p id="paragraph_section_1"></p>
 
       </div>
 
       <div class="content_one_picture">
 
-        <img class="picture_one"
-          src="https://media.gucci.com/content/DiaryArticleDouble_Standard_2800x1788/1691000130/DiaryArticleDouble_Gucci-FallWinter23-Collection-July23-018_001_Default.jpg"
-          alt="">
+        <img id="img_section_1" class="picture_one" src="" alt="">
       </div>
 
 
 
     </section>
 
-    <section class="content-two">
+    <section class="content-two" id="products">
       <div class="content_two_information">
 
-        <h1 style="font-size: 40px; color:white"><b>NEW COLLECTION</b></h1>
+        <h1 id="title_section_2" style="font-size: 40px; color:black"><b>NEW COLLECTION</b></h1>
 
         <div id="content-product">
 
+          <p>Take off</p>
           <div id="content-discount">
             <p style="font-size: 25px;">20%</p>
           </div>
-          <img id="picture-sweater" src="Assets/sueter.jpeg" alt="">
+          <img id="picture-content_two" src="Assets/img_1.jpeg" alt="">
           <div id="content-information-picture-one">
             <div id="text-1">
-              <p><b>Women's sweater</b><br> $30.00 <br><b>Size:S, M</b> </p>
+              <p><b id="description_product">Women's sweater</b><br></p>
+              <p id="price_product">$30.00</p>
+              <p><b id="size_product">Size:S, M</b></p>
             </div>
             <div id="content-more" style="font-size: 25px;"><b>+</b></div>
           </div>
@@ -93,10 +109,10 @@
         </div>
 
         <div class="clothes-buttons" id="buttons">
-          <button id="button_one" type="button"></button>
-          <button id="button_two" type="button"></button>
-          <button id="button_three" type="button"></button>
-          <button id="button_four" type="button"></button>
+          <button id="button_1" type="button"></button>
+          <button id="button_2" type="button"></button>
+          <button id="button_3" type="button"></button>
+          <button id="button_4" type="button"></button>
         </div>
 
       </div>
@@ -105,72 +121,80 @@
     </section>
 
     <section class="content-three">
-      <h1>Welcome to Landing Page</h1>
-      <p>Este es un ejemplo de un landing page con un header fijo en la parte superior.</p>
-      <!-- Agrega aquí tu contenido principal -->
+
+
+      <h2 id="title_content_three"></h2>
+
+      <div class="container">
+
+        <img id="content_three_img_1" src="" text="ELEGANT">
+        <img id="content_three_img_2" src="" text="SUMMER">
+        <img id="content_three_img_3" src="" text="DENIM">
+        <img id="content_three_img_4" src="" text="SPORT">
+
+      </div>
+
     </section>
 
 
-    <section class="content-four">
+    <section class="content-four" id="services">
       <div class="content_four_picture">
-        <img class="picture_four" img src="Assets/pic four.jpg" alt="">
+        <img id="picture_content_four" img src="" alt="">
       </div>
 
       <div class="services_content">
 
-        <h1>¿What are our services?</h1>
+        <h1 id="title_content_four">¿What are our services?</h1>
 
-        <div class="service_one">
+        <div class="service_1">
 
           <div class="img_service">
-            <img id="ico1" img src="Assets/cardbuy.jpg" alt="">
+            <img id="ico1" img src="" alt="">
           </div>
 
-          <div>
-            <h3>Buy Online</h3>
-            <p>Where customers can search, select and purchase apparel and accessories from the convenience of their
-              electronic devices.</p>
+          <div id="service_content_1">
+            <h3></h3>
+            <p></p>
           </div>
 
         </div>
 
-        <div class="service_two">
+        <div class="service_2">
 
           <div class="img_service">
-            <img id="ico2" src="Assets/truck.jpg" alt="">
+            <img id="ico2" src="" alt="">
           </div>
 
-          <div>
-            <h3>Send by Correos CR</h3>
-            <p>Home deliveries are made through our express service where your orders will arrive at the door of your
-              house.</p>
+          <div id="service_content_2">
+            <h3></h3>
+            <p></p>
           </div>
 
         </div>
 
-        <div class="service_three">
+        <div class="service_3">
 
           <div class="img_service">
-            <img id="ico3" src="Assets/buyself.png" alt="">
+            <img id="ico3" src="" alt="">
           </div>
 
-          <div>
-            <h3>Personality your order</h3>
-            <p>We have product customization where you can design your clothing items.</p>
+          <div id="service_content_3">
+            <h3></h3>
+            <p></p>
           </div>
 
         </div>
 
-        <div class="service_four">
+        <div class="service_4">
 
           <div class="img_service">
-            <img id="ico4" src="Assets/buynow.png" alt="">
+            <img id="ico4" src="" alt="">
           </div>
 
-          <div>
+          <div id="service_content_4">
 
-            <h3>Wholesale purchase</h3>
-            <p>We offer to our clients wholesale purchase with a take off in selects products.</p>
+            <h3></h3>
+            <p></p>
 
           </div>
 
@@ -217,7 +241,8 @@
     </div>
 
   </footer>
-
+  <script src="JS/main.js"></script>
+  <script src="JS/main_2.js"></script>
 </body>
 
 </html>
