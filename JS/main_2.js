@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     header_information.options_header.forEach(option => {
       // obtenemos cada uno de los enlaces del menú principal
-      document.getElementById(`menu_option_${option.id}`).innerText = option.name;
+      document.getElementById(`menu_option_${option.id}`).textContent = option.name;
 
     });
 
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
     picture_content_four.src = main_information.section_4.img;
 
     main_information.section_4.services.forEach(option => {
-      // obtenemos cada uno de los enlaces de la lista de servicios
+      //cargamos cada titulo y parafo de los servicios
       document.getElementById(`ico${option.id}`).src = option.ico
       document.querySelector(`#service_content_${option.id} h3`).textContent = option.service_title;
       document.querySelector(`#service_content_${option.id} p`).textContent = option.text;
@@ -112,7 +112,29 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 
-  function load_footer(footer_information){
+  function load_footer(footer_information) {
+
+    footer_information.footer.footer_sections.forEach(option => {
+
+      //obtengo los titulos de cada columna y les doy su texto (hay 3 secciones)
+      document.querySelector(`#footer_section_${option.id} h3`).textContent = option.title;
+      
+
+      const footer_options = document.querySelectorAll(`#list_${option.id} li a`);
+      //optengo los a de cada columna del footer y luego los recorro para llenarlos
+      footer_options.forEach((item, indice) => {
+
+        item.textContent = option.items[indice].text;
+
+      });
+
+    });
+
+    footer_information.footer.footer_icons.forEach(icons => {
+
+      document.getElementById(`footer_ico_${icons.id}`).src = icons.url;
+
+    });
 
   }
 

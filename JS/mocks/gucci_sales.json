@@ -124,5 +124,77 @@
         "ico": "Assets/buynow.png"
       }
     ]
+  },
+  "footer": {
+    "footer_icons":[
+      {
+        "id" :1,
+        "url" : "Assets/instagram.svg"
+      },
+      {
+        "id" :2,
+        "url" : "Assets/brand-facebook-filled.svg"
+      },
+      {
+        "id" :3,
+        "url" : "Assets/brand-twitter-filled.svg"
+      }
+    ],
+    "footer_sections": [
+      {
+        "id": 1,
+        "title": "Company",
+        "items": [
+          {
+            "text": "About"
+          },
+          {
+            "text": "Carrers"
+          },
+          {
+            "text": "Press"
+          },
+          {
+            "text": "Blog"
+          },
+          {
+            "text": "Meet our Instructor"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Offers",
+        "items": [
+          {
+            "text": "Buy a gift"
+          },
+          {
+            "text": "Redeem a Gift"
+          },
+          {
+            "text": "Groups & Teams"
+          },
+          {
+            "text": "Calm Health"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Help",
+        "items": [
+          {
+            "text": "FAQ"
+          },
+          {
+            "text": "Contact Us"
+          },
+          {
+            "text": "Terms"
+          }
+        ]
+      }
+    ]
   }
 }
