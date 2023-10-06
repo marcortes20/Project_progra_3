@@ -38,19 +38,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
   }
 
-  function load_contact(contact_informacion){
+  function load_contact(contact_informacion) {
     const title_contact = document.getElementById('contact_title');
     const for_contact = document.getElementById('for_label');
-    const  issue_label = document.getElementById('issue_label');
+    const issue_label = document.getElementById('issue_label');
     const message_label = document.getElementById('message_label');
     const btn_send = document.getElementById('btn_send');
 
-    title_contact.textContent =  contact_informacion.contact_field.title;
-    for_contact.textContent =  contact_informacion.contact_field.for;
+    title_contact.textContent = contact_informacion.contact_field.title;
+    for_contact.textContent = contact_informacion.contact_field.for;
     issue_label.textContent = contact_informacion.contact_field.issues;
     message_label.textContent = contact_informacion.contact_field.message;
     btn_send.textContent = contact_informacion.contact_field.button_text;
-    
+
 
 
   }
@@ -89,14 +89,16 @@ document.addEventListener('DOMContentLoaded', function () {
     size_product.textContent = main_information.section_2.products[0].size;
 
 
-    
+
     main_information.section_2.products.forEach(option => {
       // obtenemos cada uno de los enlaces de la lista de productos
+
       document.getElementById(`button_${option.id}`).addEventListener("click", () => {
         // Cambia la opacidad de la imagen a 0 (invisible)
         img.style.opacity = 0;
         // Después de un breve retraso, cambia la imagen y restaura la opacidad
         setTimeout(() => {
+
           img.src = option.url; // Cambia la imagen
           discount.textContent = option.discount;
           img.style.opacity = 1; // Restaura la opacidad
@@ -210,21 +212,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-  function contact_window_bahavior(){
+  function contact_window_bahavior() {
     const openEmailModal = document.getElementById('menu_option_4');
     const emailModal = document.getElementById('emailModal');
     const closeEmailModal = document.getElementById('closeEmailModal');
-  
+
     // Abre el modal cuando se hace clic en el botón de abrir
     openEmailModal.addEventListener('click', () => {
       emailModal.style.display = 'block';
     });
-  
+
     // Cierra el modal cuando se hace clic en la "x" o fuera del modal
     closeEmailModal.addEventListener('click', () => {
       emailModal.style.display = 'none';
     });
-  
+
     window.addEventListener('click', (event) => {
       if (event.target == emailModal) {
         emailModal.style.display = 'none';
