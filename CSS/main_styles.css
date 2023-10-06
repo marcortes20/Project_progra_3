@@ -2,6 +2,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+h1, h2, h3{
+  font-family: 'Nunito Sans', sans-serif;
+}
+p b{
+  font-family: 'Zilla Slab', serif;
+}
 
 .main {
   margin-top: 60px;
@@ -11,7 +17,7 @@ body {
 }
 
 .content_one {
-  background:linear-gradient(90deg, #b5b3b3 0%, #ffffff 100%);
+  background-color: white;
   display: flex;
   padding: 20px 100px;
   gap: 10%;
@@ -40,7 +46,7 @@ body {
 
 .content-two {
   padding: 20px;
-  background-color: #E3E2C3;
+  background-color: #e4e3d2  ;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -51,6 +57,9 @@ body {
   flex-direction: column;
   gap: 30px;
 }
+
+
+
 
 #content-product {
   background-color: white;
@@ -75,7 +84,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-right: 350px;
+
 
 }
 
@@ -130,11 +139,14 @@ body {
   background-color: #050505;
 }
 
+.content-three{
+  padding-top: 50px;
+}
 
 .container {
   display: flex;
   margin: auto;
-  padding: 100px;
+  padding: 20px;
   width: 60%;
   height: 600px;
 
@@ -169,7 +181,13 @@ h2 {
   text-align: center;
 }
 
+.discount_field{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
+}
 
 
 
@@ -184,7 +202,7 @@ h2 {
 
 
 .content-four {
-  background-color: #15596A;
+  background-color:#FCE1D3;
   display: flex;
   flex-direction: row;
   text-align: start;
@@ -199,6 +217,7 @@ h2 {
   width: 350px;
   border-radius: 20px;
   padding: 10px;
+  margin-left: 150px;
 }
 
 .services_content {

@@ -1,8 +1,8 @@
 .footer {
   margin: 0;
   padding: 0;
-  padding: 50px;
-  background-color:rgb(128, 128, 128) ;
+  padding: 25px;
+  background-color:#2d2e2d;
   display: flex;
   justify-content: space-around;
 }
@@ -43,5 +43,5 @@
 }
 
 .logos img {
-  height: 24px;
+  height: 35px;
 }

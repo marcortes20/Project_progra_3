@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     //variables de la seccion 2 del main
+    const title = document.getElementById('title_section_2');
     const img = document.getElementById('picture-content_two');
     const discount = document.getElementById('content-discount');
     const description_product = document.getElementById('description_product');
@@ -59,8 +60,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //inicializar una imagen por default
     img.src = main_information.section_2.products[0].url;
-
-
+    title.textContent = main_information.section_2.title;
+    discount.textContent = main_information.section_2.products[0].discount;
+  
     main_information.section_2.products.forEach(option => {
       // obtenemos cada uno de los enlaces de la lista de productos
       document.getElementById(`button_${option.id}`).addEventListener("click", () => {
@@ -74,6 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
           description_product.textContent = option.description;
           price_product.textContent = option.price;
           size_product.textContent = option.size;
+          
         }, 500);
       });
 
