@@ -251,3 +251,16 @@ p, b{
   display: flex;
   gap: 40px;
 }
+
+
+@media (max-width: 500px)
+{
+
+  .content_one{
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  
+
+}

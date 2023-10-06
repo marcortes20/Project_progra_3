@@ -139,3 +139,12 @@
   display: flex;
   gap: 5px;
 }
+
+@media (max-width: 500px)
+{
+  .navigation-menu{
+display: flex;
+flex-direction: column;
+  }
+
+}
