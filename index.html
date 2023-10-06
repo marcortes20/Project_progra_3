@@ -21,18 +21,18 @@
     <div id="emailModal" class="modal">
       <div class="modal-content">
         <span class="close" id="closeEmailModal">&times;</span>
-        <h2>Enviar Correo</h2>
+        <h2 id="contact_title"></h2>
         <form id="emailForm">
-          <label for="to">Para:</label>
+          <label id="for_label" for="to"></label>
           <input type="email" id="to" name="to" required><br>
 
-          <label for="subject">Asunto:</label>
+          <label id="issue_label" for="subject"></label>
           <input type="text" id="subject" name="subject" required><br>
 
-          <label for="message">Mensaje:</label>
+          <label id="message_label" for="message"></label>
           <textarea id="message" name="message" required></textarea><br>
 
-          <button type="submit">Enviar</button>
+          <button id="btn_send" type="submit"></button>
 
         </form>
       </div>
@@ -107,12 +107,13 @@
             </div>
 
           </div>
-          <img id="picture-content_two" src="Assets/img_1.jpeg" alt="">
+          <img id="picture-content_two" src="" alt="">
+
           <div id="content-information-picture-one">
             <div id="text-1">
-              <p><b id="description_product">Women's sweater</b><br></p>
-              <p id="price_product">$30.00</p>
-              <p><b id="size_product">Size:S, M</b></p>
+              <p><b id="description_product"></b><br></p>
+              <p id="price_product"></p>
+              <p><b id="size_product"></b></p>
             </div>
             <div id="content-more" style="font-size: 25px;"><b>+</b></div>
           </div>

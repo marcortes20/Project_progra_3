@@ -32,6 +32,13 @@
       "path": "Assets/search.svg"
     }
   ],
+  "contact_field": {
+    "title": "Send email",
+    "for": "For",
+    "issues": "Issues",
+    "message": "Message",
+    "button_text": "Send"
+  },
   "section_1": {
     "title": "LOVE-WHERE-LOVE MEETS FASHION",
     "paragraph": "Welcome to Love, your premier destination for luxury fashion. At Love, we offer a wide selection of high-end clothing and accessories to elevate your style. Our store is a reflection of timeless elegance and sophistication, where you can discover the latest trends and classic pieces that define the essence of luxury fashion. Whether you're looking for iconic Love handbags, exquisite apparel, or statement accessories, our dedicated team is here to provide you with an unparalleled shopping experience. Step into the world of Love and indulge in the finest craftsmanship and design. Thank you for choosing Love, where fashion meets excellences.",
@@ -53,7 +60,7 @@
         "url": "https://i.pinimg.com/564x/a9/1f/5e/a91f5e39518d4707e573423d4269c5d6.jpg",
         "discount": "5%",
         "price": "20$",
-        "description": "WOMEN'S SLEEVELESS FORMAL BLOUSE",
+        "description": "Women's sleeveless formal blouse",
         "size": "Size: M"
       },
       {
@@ -126,18 +133,18 @@
     ]
   },
   "footer": {
-    "footer_icons":[
+    "footer_icons": [
       {
-        "id" :1,
-        "url" : "Assets/instagram.svg"
+        "id": 1,
+        "url": "Assets/instagram.svg"
       },
       {
-        "id" :2,
-        "url" : "Assets/brand-facebook-filled.svg"
+        "id": 2,
+        "url": "Assets/brand-facebook-filled.svg"
       },
       {
-        "id" :3,
-        "url" : "Assets/brand-twitter-filled.svg"
+        "id": 3,
+        "url": "Assets/brand-twitter-filled.svg"
       }
     ],
     "footer_sections": [

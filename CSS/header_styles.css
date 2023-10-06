@@ -49,6 +49,7 @@
   font-weight: bold;
 }
 
+
 #emailForm input[type="email"],
 #emailForm input[type="text"],
 #emailForm textarea {
@@ -76,11 +77,6 @@
 
 
 
-.close {
-  float: right;
-  cursor: pointer;
-  font-size: 20px;
-}
 
 /* Añade estilos adicionales según tus preferencias */
 

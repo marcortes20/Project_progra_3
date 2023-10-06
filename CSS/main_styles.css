@@ -5,7 +5,7 @@ body {
 h1, h2, h3{
   font-family: 'Nunito Sans', sans-serif;
 }
-p b{
+p, b{
   font-family: 'Zilla Slab', serif;
 }
 
@@ -23,12 +23,6 @@ p b{
   gap: 10%;
 }
 
-
-.content_one_picture {
-  display: flex;
-  justify-content: center;
-}
-
 .content_one_information {
   display: flex;
   flex-direction: column;
@@ -36,6 +30,12 @@ p b{
   text-align: center;
   justify-content: center;
 }
+
+.content_one_picture {
+  display: flex;
+  justify-content: center;
+}
+
 
 .picture_one {
   width: 450px;
@@ -133,6 +133,8 @@ p b{
   border: none;
   width: 50px;
   height: 50px;
+  transition: background-color 0.5s ease;
+  
 }
 
 .clothes-buttons button:hover{
@@ -149,8 +151,6 @@ p b{
   padding: 20px;
   width: 60%;
   height: 600px;
-
-
 }
 
 
@@ -160,25 +160,16 @@ p b{
   align-items: center;
   width: 0px;
   flex-grow: 1;
-  object-fit: cover;
+  object-fit: cover; /*se ajusta al tamaño del contenedor*/
   opacity: .8;
   transition: .7s ease;
-
-
 }
 
 .container img:hover {
   cursor: crosshair;
-  width: 300px;
+  width: 50%;
   opacity: 1;
-  filter: contrast(100%);
 
-
-}
-
-
-h2 {
-  text-align: center;
 }
 
 .discount_field{
@@ -191,12 +182,9 @@ h2 {
 
 
 
-
-
-
-
-
-
+#title_content_three {
+  text-align: center;
+}
 
 
 
