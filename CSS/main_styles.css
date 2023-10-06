@@ -253,13 +253,48 @@ p, b{
 }
 
 
-@media (max-width: 500px)
+@media (max-width: 600px)
 {
-
   .content_one{
     margin-top: 50px;
     flex-direction: column;
   }
+
+  #picture_content_four{
+    display: none;
+  }
+
+  .content-four{
+    width: 100%;
+    padding: 50px;
+  }
+
+  main{
+    width: 100%;
+  }
+
+
+  .container {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    height: 400px;
+  }
+  
+  
+  .container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover; /*se ajusta al tamaño del contenedor*/
+    opacity: .8;
+    transition: .7s ease;
+  }
+
+
 
   
 
